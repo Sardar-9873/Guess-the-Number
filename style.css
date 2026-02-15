@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    height: 100vh;
+    animation: bgChange 20s infinite alternate;
+  }
+
+  @keyframes bgChange {
+    0%  { background: #000080; }
+    25%  { background: #0F52BA; }
+    50%  { background: #002366; }
+    75% { background: #0047AB; }
+    100% { background: #000080; }
+  }
+
+  .div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 18px;
+    box-shadow: 2px 2px 24px 5px black;
+    height: 90vh;
+    width: 90vw;
+    margin: 30px auto auto auto;
+  }
+
+  .text{
+    /* justify-self: start; */
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    z-index: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .text1{
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    z-index: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button{
+    color: aliceblue;
+    background-color: black;
+    height: 3em;
+    width: 8em;
+    border: 1px dotted black;
+    border-radius: 6px;
+    z-index: 6px;
+    display: inline-block;
+  }
+
+  a{
+    color: yellow;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+
+  a:active{
+    color: blue;
+    text-decoration: underline;
+  }
+
+  a:visited{
+    color: red;
+  }
